@@ -43,7 +43,7 @@ $(document).ready(function() {
     console.log(currentHangman.result);
   });
 
-  $("form#add-letter").submit(function (event) {
+  $("form#add-letter").submit(function(event) {
     event.preventDefault();
 
     var userInput = $("input#input-letter").val();
